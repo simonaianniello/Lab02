@@ -8,6 +8,7 @@ public class AlienDictionary {
 	public AlienDictionary() {
 		wordList=new ArrayList<WordEnhanced>();
 	}
+
 	public int equals (String alienWord) {
 	
 		for (WordEnhanced w:wordList) {
